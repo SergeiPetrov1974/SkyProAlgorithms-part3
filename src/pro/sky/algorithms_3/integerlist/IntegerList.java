@@ -7,12 +7,12 @@ public interface IntegerList {
     Integer remove(Integer item);
     Integer remove(int index);
     boolean contains(Integer item);
-    boolean equals(IntegerList otherList);
-    boolean isEmpty();
     int indexOf(Integer item);
     int lastIndexOf(Integer item);
     Integer get(int index);
+    boolean equals(IntegerList otherList);
     int getSize();
+    boolean isEmpty();
     void clear();
     Integer[] toArray();
 }
